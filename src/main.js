@@ -1,1 +1,3 @@
-console.log("loaded")
+import styles from './main.css!'
+
+console.log(styles)

@@ -18,7 +18,7 @@ System.config({
     "babel": "npm:babel-core@5.4.7",
     "babel-runtime": "npm:babel-runtime@5.4.7",
     "core-js": "npm:core-js@0.9.13",
-    "css-modules-loader-core": "npm:css-modules-loader-core@0.0.1",
+    "css-modules-loader-core": "npm:css-modules-loader-core@0.0.3",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
     },
@@ -54,6 +54,22 @@ System.config({
       "systemjs-json": "github:systemjs/plugin-json@0.1.0"
     },
     "npm:css-modules-loader-core@0.0.1": {
+      "postcss": "npm:postcss@4.1.11",
+      "postcss-modules-extract-imports": "npm:postcss-modules-extract-imports@0.0.2",
+      "postcss-modules-local-by-default": "npm:postcss-modules-local-by-default@0.0.7",
+      "postcss-modules-scope": "npm:postcss-modules-scope@0.0.3"
+    },
+    "npm:css-modules-loader-core@0.0.2": {
+      "fs": "github:jspm/nodelibs-fs@0.1.2",
+      "path": "github:jspm/nodelibs-path@0.1.0",
+      "postcss": "npm:postcss@4.1.11",
+      "postcss-modules-extract-imports": "npm:postcss-modules-extract-imports@0.0.2",
+      "postcss-modules-local-by-default": "npm:postcss-modules-local-by-default@0.0.7",
+      "postcss-modules-scope": "npm:postcss-modules-scope@0.0.3"
+    },
+    "npm:css-modules-loader-core@0.0.3": {
+      "fs": "github:jspm/nodelibs-fs@0.1.2",
+      "path": "github:jspm/nodelibs-path@0.1.0",
       "postcss": "npm:postcss@4.1.11",
       "postcss-modules-extract-imports": "npm:postcss-modules-extract-imports@0.0.2",
       "postcss-modules-local-by-default": "npm:postcss-modules-local-by-default@0.0.7",
