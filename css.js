@@ -2,8 +2,9 @@ import Core from 'css-modules-loader-core'
 import path from 'path'
 
 class CSSLoader {
-  constructor() {
+  constructor(plugins) {
     this.fetch = this.fetch.bind(this)
+    if (plugins) Core.plugins = plugins
   }
 
   fetch( load, fetch ) {
@@ -50,4 +51,7 @@ class CSSLoader {
   }
 }
 
-export default new CSSLoader()
+export default new CSSLoader([
+  Core.extractImports,
+  Core.scope
+])
