@@ -1,10 +1,10 @@
 body {
   margin: 0;
-  background: papayawhip;
+  background: #001f3f;
 }
 
 .lol {
-  extends: redBackground fontSize24pt from "./backgrounds.css";
+  extends: lightBlueBackground fontSize24pt from "./backgrounds.css";
   color: white;
   padding: 2rem;
 }

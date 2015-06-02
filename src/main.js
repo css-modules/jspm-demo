@@ -1,5 +1,5 @@
 import styles from './main.css!'
 
 document.querySelector('main#outlet').innerHTML = `
-  <div class="${styles.lol}">LOLOL AMIRITE</div>
+  <div class="${styles.lol}">JSPM and CSS Modules = &lt;3</div>
 `
