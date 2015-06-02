@@ -1,3 +1,5 @@
 import styles from './main.css!'
 
-console.log(styles)
+document.querySelector('main#outlet').innerHTML = `
+  <div class="${styles.lol}">LOLOL AMIRITE</div>
+`

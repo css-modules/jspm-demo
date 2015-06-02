@@ -1,3 +1,9 @@
+body {
+  margin: 0;
+}
+
 .lol {
-  color: red;
+  extends: redBackground fontSize24pt from "./backgrounds.css";
+  color: white;
+  padding: 2rem;
 }

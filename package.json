@@ -2,7 +2,8 @@
   "jspm": {
     "directories": {},
     "dependencies": {
-      "css-modules-loader-core": "npm:css-modules-loader-core@^0.0.3"
+      "css-modules-loader-core": "npm:css-modules-loader-core@^0.0.3",
+      "path": "npm:path@^0.11.14"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.1.13",
