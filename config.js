@@ -18,6 +18,7 @@ System.config({
     "babel": "npm:babel-core@5.4.7",
     "babel-runtime": "npm:babel-runtime@5.4.7",
     "core-js": "npm:core-js@0.9.13",
+    "css": "npm:jspm-loader-css@0.0.3",
     "css-modules-loader-core": "npm:css-modules-loader-core@0.0.3",
     "path": "npm:path@0.11.14",
     "github:jspm/nodelibs-assert@0.1.0": {
@@ -92,6 +93,14 @@ System.config({
     },
     "npm:js-base64@2.1.8": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0"
+    },
+    "npm:jspm-loader-css@0.0.2": {
+      "css-modules-loader-core": "npm:css-modules-loader-core@0.0.3",
+      "path": "npm:path@0.11.14"
+    },
+    "npm:jspm-loader-css@0.0.3": {
+      "css-modules-loader-core": "npm:css-modules-loader-core@0.0.3",
+      "path": "npm:path@0.11.14"
     },
     "npm:path-browserify@0.0.0": {
       "process": "github:jspm/nodelibs-process@0.1.1"
