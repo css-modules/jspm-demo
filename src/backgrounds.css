@@ -1,4 +1,4 @@
-.lightBlueBackground {
+:local(.lightBlueBackground) {
   composes: whiteBorder from "./a.css";
   background: #0074D9;
 }
