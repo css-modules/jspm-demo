@@ -1,7 +1,5 @@
 .lightBlueBackground {
+  extends: whiteBorder from "./a.css";
   background: #0074D9;
 }
 
-.fontSize24pt {
-  font-size: 1.5rem;
-}
