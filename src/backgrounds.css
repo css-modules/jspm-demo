@@ -1,5 +1,5 @@
 .lightBlueBackground {
-  extends: whiteBorder from "./a.css";
+  composes: whiteBorder from "./a.css";
   background: #0074D9;
 }
 

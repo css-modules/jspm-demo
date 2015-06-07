@@ -2,8 +2,7 @@
   "jspm": {
     "directories": {},
     "dependencies": {
-      "css": "npm:jspm-loader-css-modules@^0.0.1",
-      "css-modules-loader-core": "npm:css-modules-loader-core@^0.0.3",
+      "css": "npm:jspm-loader-css-modules@^0.0.2",
       "path": "npm:path@^0.11.14"
     },
     "devDependencies": {

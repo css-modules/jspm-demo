@@ -5,8 +5,8 @@ body {
 }
 
 .lol {
-  extends: lightBlueBackground from "./backgrounds.css";
-  extends: fontSize24pt from "./b.css";
+  composes: lightBlueBackground from "./backgrounds.css";
+  composes: fontSize24pt from "./b.css";
   color: white;
   padding: 2rem;
 }
