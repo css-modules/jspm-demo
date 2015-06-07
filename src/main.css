@@ -9,4 +9,5 @@ body {
   composes: fontSize24pt from "./b.css";
   color: white;
   padding: 2rem;
+  margin: 1rem;
 }
