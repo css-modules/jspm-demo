@@ -10,8 +10,10 @@ console.log("src/backgrounds.css")
 console.log("src/a.css")
 console.log("src/main.css")
 
+
 export let __hotReload = (loader, newModule) => {
   console.log(this, loader, newModule)
+  return true
 }
 
 export default 5;
