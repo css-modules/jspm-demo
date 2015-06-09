@@ -40,6 +40,12 @@ System.config({
       "path": "github:jspm/nodelibs-path@0.1.0",
       "process": "github:jspm/nodelibs-process@0.1.1"
     },
+    "npm:amdefine@0.1.1": {
+      "fs": "github:jspm/nodelibs-fs@0.1.2",
+      "module": "github:jspm/nodelibs-module@0.1.0",
+      "path": "github:jspm/nodelibs-path@0.1.0",
+      "process": "github:jspm/nodelibs-process@0.1.1"
+    },
     "npm:assert@1.3.0": {
       "util": "npm:util@0.10.3"
     },
@@ -118,7 +124,7 @@ System.config({
       "systemjs-json": "github:systemjs/plugin-json@0.1.0"
     },
     "npm:source-map@0.4.2": {
-      "amdefine": "npm:amdefine@0.1.0",
+      "amdefine": "npm:amdefine@0.1.1",
       "fs": "github:jspm/nodelibs-fs@0.1.2",
       "path": "github:jspm/nodelibs-path@0.1.0",
       "process": "github:jspm/nodelibs-process@0.1.1"
