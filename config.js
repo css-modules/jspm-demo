@@ -18,7 +18,7 @@ System.config({
     "babel": "npm:babel-core@5.5.6",
     "babel-runtime": "npm:babel-runtime@5.5.6",
     "core-js": "npm:core-js@0.9.15",
-    "css": "npm:jspm-loader-css-modules@0.0.2",
+    "css": "npm:jspm-loader-css-modules@0.1.1",
     "path": "npm:path@0.11.14",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
@@ -35,12 +35,6 @@ System.config({
     "github:jspm/nodelibs-util@0.1.0": {
       "util": "npm:util@0.10.3"
     },
-    "npm:amdefine@0.1.0": {
-      "fs": "github:jspm/nodelibs-fs@0.1.2",
-      "module": "github:jspm/nodelibs-module@0.1.0",
-      "path": "github:jspm/nodelibs-path@0.1.0",
-      "process": "github:jspm/nodelibs-process@0.1.1"
-    },
     "npm:amdefine@0.1.1": {
       "fs": "github:jspm/nodelibs-fs@0.1.2",
       "module": "github:jspm/nodelibs-module@0.1.0",
@@ -50,9 +44,6 @@ System.config({
     "npm:assert@1.3.0": {
       "util": "npm:util@0.10.3"
     },
-    "npm:babel-runtime@5.5.4": {
-      "process": "github:jspm/nodelibs-process@0.1.1"
-    },
     "npm:babel-runtime@5.5.6": {
       "process": "github:jspm/nodelibs-process@0.1.1"
     },
@@ -61,17 +52,12 @@ System.config({
       "ieee754": "npm:ieee754@1.1.5",
       "is-array": "npm:is-array@1.0.1"
     },
-    "npm:core-js@0.9.14": {
-      "fs": "github:jspm/nodelibs-fs@0.1.2",
-      "process": "github:jspm/nodelibs-process@0.1.1",
-      "systemjs-json": "github:systemjs/plugin-json@0.1.0"
-    },
     "npm:core-js@0.9.15": {
       "fs": "github:jspm/nodelibs-fs@0.1.2",
       "process": "github:jspm/nodelibs-process@0.1.1",
       "systemjs-json": "github:systemjs/plugin-json@0.1.0"
     },
-    "npm:css-modules-loader-core@0.0.6": {
+    "npm:css-modules-loader-core@0.0.7": {
       "fs": "github:jspm/nodelibs-fs@0.1.2",
       "path": "github:jspm/nodelibs-path@0.1.0",
       "postcss": "npm:postcss@4.1.11",
@@ -96,11 +82,11 @@ System.config({
     "npm:js-base64@2.1.8": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0"
     },
-    "npm:jspm-loader-css-modules@0.0.2": {
-      "jspm-loader-css": "npm:jspm-loader-css@0.0.5"
+    "npm:jspm-loader-css-modules@0.1.1": {
+      "jspm-loader-css": "npm:jspm-loader-css@0.1.1"
     },
-    "npm:jspm-loader-css@0.0.5": {
-      "css-modules-loader-core": "npm:css-modules-loader-core@0.0.6",
+    "npm:jspm-loader-css@0.1.1": {
+      "css-modules-loader-core": "npm:css-modules-loader-core@0.0.7",
       "path": "npm:path@0.11.14"
     },
     "npm:path-browserify@0.0.0": {
