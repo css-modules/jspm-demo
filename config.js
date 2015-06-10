@@ -18,6 +18,7 @@ System.config({
     "babel-runtime": "npm:babel-runtime@5.5.6",
     "core-js": "npm:core-js@0.9.15",
     "css": "npm:jspm-loader-css@0.0.5",
+    "fkit": "npm:fkit@0.16.2",
     "path": "npm:path@0.11.14",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"

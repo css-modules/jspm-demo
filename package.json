@@ -3,6 +3,7 @@
     "directories": {},
     "dependencies": {
       "css": "npm:jspm-loader-css@^0.0.5",
+      "fkit": "npm:fkit@^0.16.2",
       "path": "npm:path@^0.11.14"
     },
     "devDependencies": {
