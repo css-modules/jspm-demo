@@ -9,7 +9,8 @@ System.config({
     "*": "*.js",
     "github:*": "jspm_packages/github/*.js",
     "npm:*": "jspm_packages/npm/*.js"
-  }
+  },
+  "trace": true
 });
 
 System.config({
