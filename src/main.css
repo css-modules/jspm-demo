@@ -6,8 +6,9 @@ body {
 
 .lol {
   composes: lightBlueBackground from "./backgrounds.css";
-  composes: fontSize24pt from "./b.css";
+  composes: fontSize24pt dashed-border from "./b.css";
   color: white;
   padding: 2rem;
   margin: 1rem;
+  border-width: 1px;
 }

@@ -1,3 +1,8 @@
 .fontSize24pt {
   font-size: 1.5rem;
 }
+
+.dashed-border {
+  border-style: dashed;
+  border-width: 4px;
+}
