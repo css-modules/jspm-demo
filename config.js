@@ -19,7 +19,7 @@ System.config({
     "babel-runtime": "npm:babel-runtime@5.5.6",
     "core-js": "npm:core-js@0.9.15",
     "css": "npm:jspm-loader-css-modules@0.1.2",
-    "css-global": "npm:jspm-loader-css@0.1.4",
+    "css-global": "npm:jspm-loader-css@0.1.5",
     "path": "npm:path@0.11.14",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
@@ -61,7 +61,7 @@ System.config({
     "npm:css-modules-loader-core@0.0.10": {
       "fs": "github:jspm/nodelibs-fs@0.1.2",
       "path": "github:jspm/nodelibs-path@0.1.0",
-      "postcss": "npm:postcss@4.1.11",
+      "postcss": "npm:postcss@4.1.13",
       "postcss-modules-extract-imports": "npm:postcss-modules-extract-imports@0.0.5",
       "postcss-modules-local-by-default": "npm:postcss-modules-local-by-default@0.0.9",
       "postcss-modules-scope": "npm:postcss-modules-scope@0.0.7"
@@ -72,7 +72,7 @@ System.config({
     "npm:css-selector-tokenizer@0.5.2": {
       "fastparse": "npm:fastparse@1.1.1"
     },
-    "npm:es6-promise@2.1.1": {
+    "npm:es6-promise@2.3.0": {
       "assert": "github:jspm/nodelibs-assert@0.1.0",
       "process": "github:jspm/nodelibs-process@0.1.1",
       "util": "github:jspm/nodelibs-util@0.1.0"
@@ -87,9 +87,9 @@ System.config({
       "buffer": "github:jspm/nodelibs-buffer@0.1.0"
     },
     "npm:jspm-loader-css-modules@0.1.2": {
-      "jspm-loader-css": "npm:jspm-loader-css@0.1.4"
+      "jspm-loader-css": "npm:jspm-loader-css@0.1.5"
     },
-    "npm:jspm-loader-css@0.1.4": {
+    "npm:jspm-loader-css@0.1.5": {
       "css-modules-loader-core": "npm:css-modules-loader-core@0.0.10",
       "path": "npm:path@0.11.14"
     },
@@ -102,20 +102,20 @@ System.config({
       "util": "github:jspm/nodelibs-util@0.1.0"
     },
     "npm:postcss-modules-extract-imports@0.0.5": {
-      "postcss": "npm:postcss@4.1.11",
+      "postcss": "npm:postcss@4.1.13",
       "process": "github:jspm/nodelibs-process@0.1.1"
     },
     "npm:postcss-modules-local-by-default@0.0.9": {
       "css-selector-tokenizer": "npm:css-selector-tokenizer@0.4.1",
-      "postcss": "npm:postcss@4.1.11"
+      "postcss": "npm:postcss@4.1.13"
     },
     "npm:postcss-modules-scope@0.0.7": {
       "css-selector-tokenizer": "npm:css-selector-tokenizer@0.5.2",
-      "postcss": "npm:postcss@4.1.11",
+      "postcss": "npm:postcss@4.1.13",
       "process": "github:jspm/nodelibs-process@0.1.1"
     },
-    "npm:postcss@4.1.11": {
-      "es6-promise": "npm:es6-promise@2.1.1",
+    "npm:postcss@4.1.13": {
+      "es6-promise": "npm:es6-promise@2.3.0",
       "fs": "github:jspm/nodelibs-fs@0.1.2",
       "js-base64": "npm:js-base64@2.1.8",
       "path": "github:jspm/nodelibs-path@0.1.0",
