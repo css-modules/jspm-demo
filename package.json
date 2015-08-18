@@ -1,4 +1,7 @@
 {
+  "dependencies": {
+    "jspm": "^0.15.7"
+  },
   "jspm": {
     "directories": {},
     "dependencies": {
