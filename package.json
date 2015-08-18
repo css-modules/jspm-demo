@@ -1,10 +1,11 @@
 {
+  "dependencies": {
+    "jspm": "^0.15.7"
+  },
   "jspm": {
     "directories": {},
     "dependencies": {
-      "css": "npm:jspm-loader-css-modules@^0.1.2",
-      "css-global": "npm:jspm-loader-css@^0.1.3",
-      "path": "npm:path@^0.11.14"
+      "css": "npm:jspm-loader-css-modules@^0.1.2"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.1.13",
