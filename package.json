@@ -1,15 +1,18 @@
 {
   "jspm": {
-    "directories": {},
     "dependencies": {
-      "css": "npm:jspm-loader-css-modules@^0.1.2",
-      "css-global": "npm:jspm-loader-css@^0.1.3",
+      "css": "npm:jspm-loader-css-modules@1.0.0-beta1",
+      "css-global": "npm:jspm-loader-css@^1.0.0",
+      "douglasduteil-jspm-loader-css": "npm:douglasduteil-jspm-loader-css@^1.0.1",
       "path": "npm:path@^0.11.14"
     },
     "devDependencies": {
-      "babel": "npm:babel-core@^5.1.13",
-      "babel-runtime": "npm:babel-runtime@^5.1.13",
-      "core-js": "npm:core-js@^0.9.4"
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
     }
+  },
+  "devDependencies": {
+    "jspm": "^0.16.6"
   }
 }
