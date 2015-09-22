@@ -17,7 +17,7 @@ System.config({
     "babel-runtime": "npm:babel-runtime@5.8.24",
     "colors.css": "npm:colors.css@2.3.0",
     "core-js": "npm:core-js@1.1.4",
-    "css": "npm:jspm-loader-css-modules@1.0.0-beta1",
+    "css": "npm:jspm-loader-css-modules@1.0.1-beta1",
     "css-global": "npm:jspm-loader-css@1.0.0",
     "path": "npm:path@0.11.14",
     "postcss-safe-parser": "npm:postcss-safe-parser@1.0.1",
@@ -69,15 +69,15 @@ System.config({
       "postcss-modules-local-by-default": "npm:postcss-modules-local-by-default@0.0.9",
       "postcss-modules-scope": "npm:postcss-modules-scope@0.0.8"
     },
-    "npm:css-modules-loader-core@1.0.0-beta3": {
+    "npm:css-modules-loader-core@1.0.0-beta4": {
       "fs": "github:jspm/nodelibs-fs@0.1.2",
       "icss-replace-symbols": "npm:icss-replace-symbols@1.0.1",
       "path": "github:jspm/nodelibs-path@0.1.0",
       "postcss": "npm:postcss@5.0.6",
-      "postcss-modules-constants": "npm:postcss-modules-constants@1.0.0",
       "postcss-modules-extract-imports": "npm:postcss-modules-extract-imports@1.0.0-beta2",
       "postcss-modules-local-by-default": "npm:postcss-modules-local-by-default@1.0.0-beta1",
-      "postcss-modules-scope": "npm:postcss-modules-scope@1.0.0-beta2"
+      "postcss-modules-scope": "npm:postcss-modules-scope@1.0.0-beta2",
+      "postcss-modules-values": "npm:postcss-modules-values@1.0.0"
     },
     "npm:css-selector-tokenizer@0.4.1": {
       "fastparse": "npm:fastparse@1.1.1"
@@ -106,8 +106,8 @@ System.config({
     "npm:js-base64@2.1.9": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0"
     },
-    "npm:jspm-loader-css-modules@1.0.0-beta1": {
-      "jspm-loader-css": "npm:jspm-loader-css@1.0.0-beta1"
+    "npm:jspm-loader-css-modules@1.0.1-beta1": {
+      "jspm-loader-css": "npm:jspm-loader-css@1.0.1-beta1"
     },
     "npm:jspm-loader-css@1.0.0": {
       "css-modules-loader-core": "npm:css-modules-loader-core@0.0.12",
@@ -115,8 +115,8 @@ System.config({
       "path": "npm:path@0.12.7",
       "toposort": "npm:toposort@0.2.12"
     },
-    "npm:jspm-loader-css@1.0.0-beta1": {
-      "css-modules-loader-core": "npm:css-modules-loader-core@1.0.0-beta3",
+    "npm:jspm-loader-css@1.0.1-beta1": {
+      "css-modules-loader-core": "npm:css-modules-loader-core@1.0.0-beta4",
       "debounce": "npm:debounce@1.0.0",
       "path": "npm:path@0.12.7",
       "toposort": "npm:toposort@0.2.12"
@@ -132,10 +132,6 @@ System.config({
     "npm:path@0.12.7": {
       "process": "npm:process@0.11.2",
       "util": "npm:util@0.10.3"
-    },
-    "npm:postcss-modules-constants@1.0.0": {
-      "icss-replace-symbols": "npm:icss-replace-symbols@1.0.1",
-      "postcss": "npm:postcss@5.0.6"
     },
     "npm:postcss-modules-extract-imports@0.0.5": {
       "postcss": "npm:postcss@4.1.16",
@@ -162,6 +158,10 @@ System.config({
       "css-selector-tokenizer": "npm:css-selector-tokenizer@0.5.4",
       "postcss": "npm:postcss@5.0.6",
       "process": "github:jspm/nodelibs-process@0.1.1"
+    },
+    "npm:postcss-modules-values@1.0.0": {
+      "icss-replace-symbols": "npm:icss-replace-symbols@1.0.1",
+      "postcss": "npm:postcss@5.0.6"
     },
     "npm:postcss-safe-parser@1.0.1": {
       "postcss": "npm:postcss@5.0.6"

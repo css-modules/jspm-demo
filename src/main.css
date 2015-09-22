@@ -1,7 +1,9 @@
+@value foo: flex;
+
 body {
   margin: 0;
   background: #001f3f;
-  display: flex;
+  display: foo;
 }
 
 .lol {
