@@ -15,11 +15,12 @@ System.config({
   map: {
     "babel": "npm:babel-core@5.8.25",
     "babel-runtime": "npm:babel-runtime@5.8.24",
+    "colors.css": "npm:colors.css@2.3.0",
     "core-js": "npm:core-js@1.1.4",
     "css": "npm:jspm-loader-css-modules@1.0.0-beta1",
     "css-global": "npm:jspm-loader-css@1.0.0",
-    "douglasduteil-jspm-loader-css": "npm:douglasduteil-jspm-loader-css@1.0.1",
     "path": "npm:path@0.11.14",
+    "postcss-safe-parser": "npm:postcss-safe-parser@1.0.1",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
     },
@@ -51,6 +52,9 @@ System.config({
       "base64-js": "npm:base64-js@0.0.8",
       "ieee754": "npm:ieee754@1.1.6",
       "is-array": "npm:is-array@1.0.1"
+    },
+    "npm:colors.css@2.3.0": {
+      "process": "github:jspm/nodelibs-process@0.1.1"
     },
     "npm:core-js@1.1.4": {
       "fs": "github:jspm/nodelibs-fs@0.1.2",
@@ -84,12 +88,6 @@ System.config({
     },
     "npm:debounce@1.0.0": {
       "date-now": "npm:date-now@1.0.1"
-    },
-    "npm:douglasduteil-jspm-loader-css@1.0.1": {
-      "css-modules-loader-core": "npm:css-modules-loader-core@0.0.12",
-      "debounce": "npm:debounce@1.0.0",
-      "path": "npm:path@0.12.7",
-      "toposort": "npm:toposort@0.2.12"
     },
     "npm:es6-promise@2.3.0": {
       "assert": "github:jspm/nodelibs-assert@0.1.0",
@@ -164,6 +162,9 @@ System.config({
       "css-selector-tokenizer": "npm:css-selector-tokenizer@0.5.4",
       "postcss": "npm:postcss@5.0.6",
       "process": "github:jspm/nodelibs-process@0.1.1"
+    },
+    "npm:postcss-safe-parser@1.0.1": {
+      "postcss": "npm:postcss@5.0.6"
     },
     "npm:postcss@4.1.16": {
       "es6-promise": "npm:es6-promise@2.3.0",
