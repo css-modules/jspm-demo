@@ -1,9 +1,9 @@
-@value foo: flex;
+@value darkblue: #001f3f;
 
 body {
   margin: 0;
-  background: #001f3f;
-  display: foo;
+  background: darkblue;
+  display: flex;
 }
 
 .lol {
