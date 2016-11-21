@@ -1,4 +1,4 @@
-@value light-blue #0074D9;
+@value light-blue: #0074D9;
 
 .lightBlueBackground {
   composes: whiteBorder from "./a.css";
